@@ -14,17 +14,18 @@
   </head>
   <body>
     <header class="header">
+      <div class="overlay"></div>
       <nav class="flex flex-jc-sb flex-ai-c">
         <a href="/" class="header__logo">
           <img src="./images/logo.svg" alt="Easy bank" />
         </a>
-        <a href="#" class="header__menu">
+        <a id="btnHamburger" href="#" class="header__menu hide-for-desktop">
           <span></span>
           <span></span>
           <span></span>
         </a>
 
-        <div class="header__links">
+        <div class="header__links hide-for-moblie">
           <a href="#">Home </a>
           <a href="#">About Us </a>
           <a href="#">Contact Us </a>
@@ -32,7 +33,9 @@
           <a href="#">Blog</a>
         </div>
 
-        <a href="#" class="button header__cta">Request Invite</a>
+        <a href="#" class="button header__cta hide-for-moblie"
+          >Request Invite</a
+        >
       </nav>
     </header>
     <script src="./app/js/script.js"></script>
